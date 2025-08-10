@@ -1,10 +1,8 @@
-# F1 Timeline
+F1 Timeline
+The F1 Timeline is a sleek, image-driven showcase of some of the most iconic moments in Formula 1 history — from the first World Championship race in 1950 to modern-day milestones.
 
-This is a simple little project to show important events from Formula 1 history.
+The timeline highlights 10 key years between 1950 and 2025, each featuring a striking image and a short description. It’s built entirely with HTML, CSS, and Flexbox, keeping it fast and simple.
 
-- Right now, you’ll see the very first F1 World Championship from 1950, with an image and a quick description.
-- There’s a header at the top with our F1 Timeline logo and a button to (someday!) switch between light and dark mode.
-- You’ll also spot a place for pop-ups, but that’s something for the future!
+A bold red-and-black theme captures the adrenaline of the sport, while the clean horizontal layout makes it easy to explore events at a glance. When you tap or click on a year, the event’s image and description appear instantly — no scrolling required.
 
-I made this as a starting point for learning about building web pages and practicing HTML structure. More features and events will come later!
-
+This is just the start. Future updates will bring more years, light/dark mode, and interactive animations to make the history of Formula 1 even more exciting to relive.

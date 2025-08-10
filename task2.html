@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F1 Timeline 1950–2025</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0a0a;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff1e1e;
+  }
+
+  .timeline {
+    display: flex;
+    overflow-x: auto;
+    padding: 40px 0;
+    position: relative;
+  }
+
+  .line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 4px;
+    background: #ff1e1e;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .event {
+    flex: 0 0 auto;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    margin: 0 30px;
+    z-index: 2;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    background: #0a0a0a;
+    border: 3px solid #ff1e1e;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+  }
+
+  .card {
+    background: #111;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #ff1e1e;
+    box-shadow: 0 0 15px rgba(255, 30, 30, 0.4);
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .card h3 {
+    color: #ff1e1e;
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #ccc;
+  }
+</style>
+</head>
+<body>
+
+<header>Formula 1: 1950 - 2025</header>
+
+<div class="timeline">
+  <div class="line"></div>
+
+  <div class="event">
+    <div class="circle"></div>
+    <div class="card">
+      <img src="1950.jpg" alt="1950 F1">
+      <h3>1950 - The Beginning</h3>
+      <p>First F1 World Championship season. Giuseppe Farina wins in an Alfa Romeo.</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="circle"></div>
+    <div class="card">
+      <img src="1967.jpg" alt="1967 Lotus 49">
+      <h3>1967 - Safety Innovations</h3>
+      <p>Introduction of full-face helmets and improved crash barriers.</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="circle"></div>
+    <div class="card">
+      <img src="1988.jpg" alt="1988 McLaren">
+      <h3>1988 - McLaren Dominance</h3>
+      <p>Senna & Prost win 15/16 races for McLaren-Honda.</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="circle"></div>
+    <div class="card">
+      <img src="1994.jpeg" alt="1994 Senna">
+      <h3>1994 - Tragedy & Safety Reforms</h3>
+      <p>Death of Ayrton Senna prompts major safety overhauls.</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="circle"></div>
+    <div class="card">
+      <img src="2021.jpeg" alt="2021 Verstappen">
+      <h3>2021 - Verstappen's First Title</h3>
+      <p>Max Verstappen wins after a dramatic Abu Dhabi finale.</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="circle"></div>
+    <div class="card">
+      <img src="2025.jpeg" alt="2025 F1">
+      <h3>2025 - New Era</h3>
+      <p>Cutting-edge hybrid and aero technology define the 2025 season.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
